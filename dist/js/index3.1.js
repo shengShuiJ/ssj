@@ -1,0 +1,1 @@
+"use strict";window.onload=function(){$(function(){$(".btn5").click(function(){var t=$(".txt2").val(),n=$(".pw2").val();null==window.localStorage.getItem(t)?""==t||""==n?alert("用户名或密码不能为空"):(window.localStorage.setItem(t,n),alert("注册成功,2,秒后跳转页面"),setTimeout(function(){window.location.href="index.html"},2e3)):alert("用户名已存在")})})};

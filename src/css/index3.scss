@@ -1,0 +1,179 @@
+#header {
+    .header_inner {
+        position: relative;
+        z-index: 1;
+        margin-right: auto;
+        margin-left: auto;
+        width: 1000px;
+        height: 100px;
+
+        .logo1 {
+            float: left;
+            // height: 100px;
+            // width: 100px;
+
+            .logo_link {
+                background: url(../images/logo3.png) no-repeat;
+                background-position: -308px -57px;
+                width: 125px;
+                height: 100px;
+                display: inline-block;
+                vertical-align: top;
+                line-height: 500px;
+                overflow: hidden;
+            }
+
+
+        }
+
+        .logo2 {
+
+            background: url(../images/logo3.png) no-repeat;
+            background-position: 0 0;
+            width: 304px;
+            height: 100px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
+        }
+
+    }
+
+}
+
+//banner图
+#banner {
+    background: url(../images/banner2.jpg) no-repeat;
+    height: 650px;
+
+    .c_con {
+        margin-right: auto;
+        margin-left: auto;
+        padding: 50px 20px;
+        min-height: 550px;
+        width: 1000px;
+        height: 550px;
+        position: relative;
+
+        .c-con2 {
+            width: 360px;
+            height: 436.8px;
+            border-radius: 2px;
+            background: #fff;
+            float: right;
+
+            overflow: hidden;
+
+
+
+            // 注册
+            .c-con4 {
+                width: 360px;
+                height: 436.8px;
+                border-radius: 2px;
+                background: #fff;
+                //float: right;
+                position: absolute;
+                top: 50px;
+                right: 20px;
+               
+
+                .c-con4-body {
+                    .c-con4-body4 {
+                        width: 360px;
+
+                        .c-con4-nav {
+                            border-bottom: 1px solid #e0e0e0;
+                            font-size: 0;
+
+                            .nav4 {
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 50px;
+                                margin: 0 auto;
+                                text-align: center;
+                            }
+
+                        }
+                    }
+                }
+
+                .c-con5 {
+                    .c-con5-cen {
+                        .form {
+                            margin-right: auto;
+                            margin-left: auto;
+                            width: 300px;
+
+                            .form_top {
+                                height: 43.6px;
+                                margin-top: 38px;
+                                border: 1px solid #f10180;
+                                border-radius: 2px;
+
+                                .txt2 {
+                                    padding-left: 40px;
+                                    padding-top: 5px;
+                                    width: 248px;
+                                    height: 32px;
+                                    line-height: 32px;
+                                    border: none;
+                                }
+                            }
+
+                            .form_bottom {
+                                height: 45.6px;
+                                height: 43.6px;
+                                margin-top: 38px;
+                                border: 1px solid #f10180;
+                                border-radius: 2px;
+
+                                .pw2 {
+                                    padding-left: 40px;
+                                    width: 248px;
+                                    height: 32px;
+                                    line-height: 32px;
+                                    border: none;
+                                    padding-top: 5px;
+                                }
+                            }
+
+                            .form_floot {
+                                margin-top: 20px;
+                                ;
+
+                                a span {
+                                    font-size: 14px;
+                                    color: #000;
+                                }
+                            }
+
+
+                            .btn5 {
+                                margin-top: 20px;
+                                height: 46px;
+                                background: #f10180;
+                                border-radius: 4px;
+                                text-align: center;
+                                line-height: 46px;
+
+                                a {
+                                    font-size: 16px;
+                                    color: #fff;
+                                }
+                            }
+                        }
+
+                    }
+
+                }
+            }
+
+
+
+
+
+        }
+    }
+}

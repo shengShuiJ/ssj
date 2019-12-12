@@ -1,0 +1,318 @@
+#header {
+    .header_inner {
+        position: relative;
+        z-index: 1;
+        margin-right: auto;
+        margin-left: auto;
+        width: 1000px;
+        height: 100px;
+
+        .logo1 {
+            float: left;
+            // height: 100px;
+            // width: 100px;
+
+            .logo_link {
+                background: url(../images/logo3.png) no-repeat;
+                background-position: -308px -57px;
+                width: 125px;
+                height: 100px;
+                display: inline-block;
+                vertical-align: top;
+                line-height: 500px;
+                overflow: hidden;
+            }
+
+
+        }
+
+        .logo2 {
+
+            background: url(../images/logo3.png) no-repeat;
+            background-position: 0 0;
+            width: 304px;
+            height: 100px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
+        }
+
+    }
+
+}
+
+// 主体内容
+#container {
+    table {
+        width: 100%;
+        height: 600px;
+        margin: 0 auto;
+        text-align: center;
+
+        tr {
+            // display: block;
+            // text-align: center;
+            font-size: 14px;
+
+            // width: 100%;
+            td {
+                // display: block;
+                // text-align: center;
+                font-size: 14px;
+
+                a {
+                    display: block;
+                    text-align: center;
+                    margin: 0 auto;
+                    height: 40px;
+                    width: 100px;
+                    line-height: 40px;
+                    background: #d7237e;
+                    border-radius: 5px;
+                    font-size: 20px;
+                    color: #fff;
+                }
+            }
+
+        }
+    }
+
+    tbody {
+        width: 100%;
+      
+        margin: 0 auto;
+        text-align: center;
+
+        tr {
+            // display: block;
+            // text-align: center;
+            font-size: 14px;
+            height: 143px;
+            // width: 100%;
+            td {
+                // display: block;
+                // text-align: center;
+                font-size: 14px;
+
+                a {
+                    display: block;
+                    text-align: center;
+                    margin: 0 auto;
+                    height: 40px;
+                    width: 120px;
+                    line-height: 40px;
+                    background: #d7237e;
+                    border-radius: 5px;
+                    font-size: 20px;
+                    color: #fff;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+/* 底部 */
+#floot {
+    background: #fcfcfc;
+    width: 100%;
+    height: 495px;
+    line-height: 20px;
+}
+
+#floot .floot_vip {
+    width: 960px;
+    height: 105px;
+    margin: 0 auto;
+
+}
+
+#floot .floot_vip .floot_ul li {
+    float: left;
+}
+
+#floot .floot_vip .floot_ul li i {
+    background: url(../images/img6.png) no-repeat;
+
+    display: block;
+    margin-top: 30px;
+    margin-right: 28px;
+    margin-left: 10px;
+    width: 58px;
+    height: 75px;
+    font-size: 0;
+    text-indent: -100%;
+}
+
+#floot .floot_vip .floot_ul li .i2 {
+    background-position: -80px 0;
+}
+
+#floot .floot_vip .floot_ul li .i3 {
+    background-position: -160px 0;
+}
+
+#floot .floot_vip .floot_ul li .i4 {
+    background-position: -240px 0;
+}
+
+#floot .floot_vip .floot_ul li .i5 {
+    background-position: -320px 0;
+}
+
+#floot .floot_vip .floot_ul li .i6 {
+    background-position: -400px 0;
+}
+
+#floot .floot_vip .floot_ul li .i7 {
+    background-position: -480px 0;
+}
+
+#floot .floot_vip .floot_ul li .i8 {
+    background-position: -560px 0;
+}
+
+#floot .floot_vip .floot_ul li .i9 {
+    background-position: -640px 0;
+}
+
+#floot .floot_vip .floot_ul li .i10 {
+    background-position: -720px 0;
+}
+
+#floot .floot_list {
+    line-height: 20px;
+    width: 960px;
+    height: 146px;
+    margin: 37px auto;
+
+}
+
+#floot dl {
+    float: left;
+    width: 145px;
+    height: 146px;
+    padding-left: 16px;
+    border-right: 1px solid #e0e0e0;
+}
+
+#floot .floot_list .dl6 {
+    padding-left: 0;
+    width: 136px;
+    text-align: center;
+    border-right: 0;
+    padding-left: 0;
+    display: block;
+}
+
+#floot .floot_info {
+    width: 960px;
+    height: 30px;
+    margin: 0 auto;
+    background: #d7237e;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+#floot .floot_info a {
+    color: #fff;
+}
+
+#floot .floot_info a:hover {
+    color: #ccc;
+}
+
+#floot .floor_coopright {
+    width: 960px;
+    height: 76px;
+    margin: 14px auto;
+    text-align: center;
+}
+
+#floot .floor_coopright span {
+    color: #999;
+    margin: 0 auto;
+    line-height: 19px;
+    text-align: center;
+}
+
+#floot .floor_coopright span a:hover {
+    color: #d7237e;
+}
+
+#floot .floot_pic {
+    margin: 0 auto;
+    width: 960px;
+    height: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.floot_pic .floot_p .a-i1 {
+    background: url(../images/img7.png) no-repeat;
+    display: inline-block;
+    width: 105px;
+    background-position: 0 0;
+    margin-right: 9px;
+    height: 40px;
+}
+
+.floot_pic .floot_p .a-i2 {
+    background: url(../images/img7.png) no-repeat;
+    display: inline-block;
+    width: 99px;
+    background-position: 0 -150px;
+    margin-right: 9px;
+    height: 40px;
+}
+
+.floot_pic .floot_p .a-i3 {
+    background: url(../images/img7.png) no-repeat;
+    display: inline-block;
+    width: 66px;
+    background-position: 0 -200px;
+    margin-right: 9px;
+    height: 40px;
+}
+
+.floot_pic .floot_p .a-i4 {
+    background: url(../images/img7.png) no-repeat;
+    display: inline-block;
+    width: 70px;
+    background-position: 0 -250px;
+    margin-right: 9px;
+    height: 40px;
+}
+
+.floot_pic .floot_p .a-i5 {
+    background: url(../images/img7.png) no-repeat;
+    display: inline-block;
+    width: 75px;
+    background-position: 0 -300px;
+    margin-right: 9px;
+    height: 40px;
+}
+
+.floot_pic .floot_p .a-i6 {
+    background: url(../images/img7.png) no-repeat;
+    display: inline-block;
+    width: 76px;
+    background-position: 0 -400px;
+    margin-right: 9px;
+    height: 40px;
+}
+
+.floot_pic .floot_p .a-i7 {
+    background: url(../images/img7.png) no-repeat;
+    display: inline-block;
+    width: 76px;
+    background-position: 0 -450px;
+    margin-right: 9px;
+    height: 40px;
+}

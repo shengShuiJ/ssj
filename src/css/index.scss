@@ -1,0 +1,70 @@
+// 全局锚点
+#md {
+    position: fixed;
+    top: 40px;
+    right: 50px;
+    width: 140px;
+    height: 617.6px;
+    display: none;
+
+    .md_ul {
+        display: block;
+        text-align: center;
+        // width: 120px;
+        // background: #000;
+
+        li {
+
+            background: #000;
+            height: 32px;
+            line-height: 32px;
+
+            // border-bottom: 1px solid #ccc;
+            a {
+                // display: block;
+                // height: 32px;
+                // line-height: 32px;
+
+                &:hover {
+                    color: #d7237e;
+                }
+            }
+        }
+    }
+
+}
+
+// 返回顶部
+#fh {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+
+    .fh_nav {
+        width: 50px;
+        height: 100px;
+
+        text-align: center;
+
+        a {
+            display: inline-block;
+            width: 50px;
+            height: 100px;
+
+            i {
+                font-size: 30px;
+                background: rgba(0, 0, 0, .4);
+            }
+
+            span {
+                display: block;
+                text-align: center;
+                margin: 0 auto;
+                display: none;
+                background: rgba(0, 0, 0, .4);
+                color: #fff;
+            }
+        }
+
+    }
+}
